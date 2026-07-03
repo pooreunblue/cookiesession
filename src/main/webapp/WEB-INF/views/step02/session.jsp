@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: baegseungho
-  Date: 2026. 7. 3.
-  Time: 오전 11:10
-  To change this template use File | Settings | File Templates.
---%>
+<%-- webapp/WEB-INF/views/step01/cookie.jsp --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,5 +6,10 @@
 </head>
 <body>
 <h1>Session</h1>
+<p>
+    <%--  session.setAttribute -> sessionScope -> el 해석  --%>
+    ${data} <br>
+    ${dto}
+</p>
 </body>
 </html>
